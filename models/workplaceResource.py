@@ -17,4 +17,4 @@ class WorkplaceResource(models.Model):
         help="Type of Workplace Resource.")		 
 
 
-#hr, machines and consumables should be handled separately in thier own classes.
+#hr, machines etc should be handled separately in thier own classes.
