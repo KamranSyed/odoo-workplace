@@ -3,7 +3,7 @@
 
 from odoo import models, fields, api
 
-class Resource(models.Model):
+class WorkplaceResource(models.Model):
 	_name = 'ksworkplace.resource'
 
 	qty 			= fields.Integer(string='QTY', required=True, default=1)

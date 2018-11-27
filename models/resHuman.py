@@ -3,8 +3,8 @@
 
 from odoo import models, fields, api
 
-class WorkplaceResource(models.Model):
-	_name 		= 'ksworkplace.resHumanDetail'
+class ResourceHuman(models.Model):
+	_name 		= 'ksworkplace.resHuman'
 	_inherits 	= 'ksworkplace.resource'
 
 	job			= fields.Many2one('hr.job', string="Job Title", required=True)
