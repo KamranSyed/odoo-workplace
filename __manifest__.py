@@ -17,7 +17,7 @@
     'application': True,
 	'auto_install': True,
     'category': 'Human Resources',
-    'depends': ['base'],
+    'depends': ['base','hr'],
 
     # always loaded
     'data': [
