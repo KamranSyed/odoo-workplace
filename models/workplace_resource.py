@@ -5,6 +5,7 @@ from odoo import models, fields, api
 
 class WorkplaceResource(models.Model):
 	_name = 'ksworkplace.resource'
+	_description = 'Abstract Resource'
 
 	qty 			= fields.Integer(string='QTY', required=True, default=1)
 	qtymin 			= fields.Integer(string='Min QTY', default=1)
